@@ -7,8 +7,8 @@ warnings.filterwarnings("ignore")
 # --- CONFIG: edit if your column names differ ---
 DATA_FILE = Path("data/price_dataset.xlsx")    # time series data
 FUEL_FILE = Path("data/fuel_price.xlsx")       # optional exogenous regressor
-DATE_COL  = None   # e.g. "date"; if None, use first column
-VALUE_COL = None   # e.g. "price"; if None, use second column
+DATE_COL  = "YOUR_DATE_COLUMN"   # e.g. "Month" or "Date"
+VALUE_COL = "YOUR_PRICE_COLUMN"  # e.g. "Price"
 HORIZON   = 12     # months to forecast
 # ------------------------------------------------
 

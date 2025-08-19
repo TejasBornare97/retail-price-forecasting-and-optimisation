@@ -7,11 +7,11 @@ from pulp import LpProblem, LpMinimize, LpVariable, lpSum, LpStatus, value
 # --- Expected CSV long-form columns ---
 # supplier, warehouse, cost, capacity, demand
 # If your column names differ, change them here:
-SUPPLIER_COL = "supplier"
-WAREHOUSE_COL = "warehouse"
-COST_COL     = "cost"
-CAP_COL      = "capacity"
-DEM_COL      = "demand"
+SUPPLIER_COL = "YOUR_SUPPLIER"
+WAREHOUSE_COL = "YOUR_WAREHOUSE"
+COST_COL     = "YOUR_COST"
+CAP_COL      = "YOUR_CAPACITY"
+DEM_COL      = "YOUR_DEMAND"
 DATA_FILE    = Path("data/supply_chain_data.csv")
 OUTDIR       = Path("outputs"); OUTDIR.mkdir(exist_ok=True)
 
