@@ -55,6 +55,12 @@ retail-price-forecasting-and-optimisation/
    ```
    Open `notebooks/Business_Data_Analytics_UPDATED_1.ipynb` and run all cells.
 
+## Results
+Model: SARIMAX (1,1,1)x(1,1,1,12) on monthly data.
+
+![Forecast](docs/images/forecast.png)
+
+
 ## Reproducing Results
 - Forecasting: compare ARIMA/SARIMA/Holt‑Winters/Prophet, with/without exogenous regressors (fuel prices).
 - Optimisation: solve the minimum‑cost shipment plan with PuLP and inspect allocation and cost summaries.
