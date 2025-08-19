@@ -1,4 +1,5 @@
 # Retail Price Forecasting & Supply Chain Optimisation
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TejasBornare97/retail-price-forecasting-and-optimisation/blob/main/notebooks/Business_Data_Analytics_UPDATED_1.ipynb)
 
 Time‑series forecasting for retail prices (with ARIMA/SARIMA/Holt‑Winters/Prophet) **plus** a linear‑programming based supply chain optimisation (PuLP). The goal is to forecast product prices, compare model performance, and minimise end‑to‑end supply costs across suppliers and warehouses.
 
