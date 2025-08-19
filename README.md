@@ -33,7 +33,6 @@ retail-price-forecasting-and-optimisation/
 - `data/fuel_price.xlsx` – monthly fuel price series for exogenous analysis.
 - `data/supply_chain_data.csv` – inputs for the optimisation model (suppliers, warehouses, costs, capacities, demand).
 
-> Replace these with your own data if needed and keep the same schemas referenced in the notebook.
 
 ## Quickstart
 1. **Create and activate an environment (recommended):**
