@@ -72,6 +72,6 @@ Model: SARIMAX (1,1,1)x(1,1,1,12) on monthly data.
 ## License
 This project is released under the MIT License (see `LICENSE`).
 
----
 
-*Last updated: 2025-08-19*
+Originally built in 2020 (college); modernised in 2025 (migrated to Python 3.11/Prophet 1.x; added CI/tests). Both a college-era environment and a modern environment are provided for reproducibility.
+

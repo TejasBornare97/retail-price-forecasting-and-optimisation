@@ -1,9 +1,7 @@
-pandas>=2.0
-numpy>=1.24
-matplotlib>=3.7
-statsmodels>=0.14
-prophet>=1.1
-pulp>=2.7
-scikit-learn>=1.3
-jupyterlab>=4.0
-openpyxl>=3.1
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.3.2
+prophet==1.1.5
+statsmodels==0.14.1
+pulp==2.8.0
+matplotlib==3.8.4
